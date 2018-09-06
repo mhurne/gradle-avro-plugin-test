@@ -1,0 +1,12 @@
+plugins {
+    id 'java'
+    id "com.commercehub.gradle.plugin.avro" version "0.15.0"
+}
+
+dependencies {
+    compile "org.apache.avro:avro:1.8.2"
+}
+
+repositories {
+    jcenter()
+}
